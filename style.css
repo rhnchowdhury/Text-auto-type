@@ -24,7 +24,7 @@ h1{
     color: rgb(215, 210, 76);
     background-color: #313638;
     width: 100%;
-    animation: word 6s steps(20) alternate infinite, type 6s infinite;
+    animation: word 6s steps(19) alternate infinite, type 6s infinite;
 }
 @keyframes word{
     to{
