@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #313638;
+}
+h1{
+    font-family: "Incosolata", Consolas, monospace;
+    font-size: 3em;
+    color: rgb(215, 210, 76);
+}
+.typewriter{
+    position: relative;
+}
+.typewriter::after{
+    content: '|';
+    position: absolute;
+    right: 0;
+    color: rgb(215, 210, 76);
+    background-color: #313638;
+    width: 100%;
+    animation: word 6s steps(20) alternate infinite, type 6s infinite;
+}
+@keyframes word{
+    to{
+        width: 0%;
+    }
+}
+@keyframes type {
+    50%{
+        color: transparent;
+    }
+}
